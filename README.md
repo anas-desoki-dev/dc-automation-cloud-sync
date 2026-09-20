@@ -1,6 +1,6 @@
 # Smart DC Automation & Cloud Sync Engine
 
-An advanced desktop automation application engineered specifically for the construction industry to streamline Document Control (DC) and Quality Control (QC) workflows. This tool eliminates hours of manual data entry, file renaming, and cloud synchronization, replacing them with a robust, multithreaded Python engine.
+Desktop tool for Document Controllers that renames and extracts data from submittal files, uploads them to Google Drive, and generates Excel and Word logs with direct links.
 
 ## ⚠️ Repository Note
 *This repository serves as a portfolio showcase of the architectural logic and UI/UX design. The proprietary Python source code is withheld to protect intellectual property.*
