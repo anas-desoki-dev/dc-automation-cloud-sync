@@ -18,12 +18,12 @@ In large-scale construction projects, Document Controllers struggle with:
 * **Auto-Healing Excel Engine:** Detects falsely disguised `.xls` files (HTML/CSV formats) and utilizes `pandas` to forcefully read, repair, and convert them into standard `.xlsx` files seamlessly in the background without user intervention.
 
 ### 2. Automated Submittal Extraction
-* Reads mapped cells across hundreds of Excel files instantly.
+* Reads mapped cells across hundreds of Excel files in seconds.
 * Utilizes customized Regex logic to deduce "Work Type" and "Stage" based on contextual keywords within the file descriptions (e.g., identifying "Final Plaster" or "Ventilation Shaft" from messy text strings).
 * Compiles all extracted data into a single, unified `Smart_Report.xlsx` tracking log.
 
 ### 3. Threaded Cloud Synchronization (Google Drive API)
-* Features a robust two-way sync capability (Folder-level and File-level) interacting directly with the Google Drive API.
+* Features a robust folder-level and file-level upload with duplicate checking (Folder-level and File-level) interacting directly with the Google Drive API.
 * Safely checks for existing files via unique IDs, offering the user exact control (Replace/Skip/Cancel) to prevent duplicate uploads.
 * **Auto-Generated Hyperlinked Logs:** Upon successful upload, it automatically generates an updated Excel report and a formal Microsoft Word document (`.docx`) where the document names act as direct clickable hyperlinks to the Google Drive files.
 
